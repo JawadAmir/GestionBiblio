@@ -1,0 +1,4 @@
+﻿L'Attentat,Yasmina Khadra,1000,Pocket,Best
+Livre1,Auteur,1111,Editeur,Collection
+Ce que le jour doit a la nuit,Yasmina Khadra,1000,Pocket,Pocket
+L'alchimiste,Paulo Coelho,1500,Planeta,Planeta

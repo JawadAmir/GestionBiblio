@@ -1,0 +1,2 @@
+Un programme sur la gestion d'un bibliotheque qui réalise un ajout d'aprés un fichier texte,un ajout d'un livre,
+un affichage de l'inventaire et une recherche par (auteur/titre/collection) et affiche les resultats
