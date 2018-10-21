@@ -5,7 +5,6 @@ public class Main {
     public Main() {
         super();
     }
-
     public static void main(String[] args) throws FileNotFoundException {
         Inventaire inventaire = new Inventaire();
         Scanner sc = new Scanner(System.in);
@@ -55,18 +54,18 @@ public class Main {
                     inventaire.afficherLivres();
                     break;
                 case 3: //Ajouter un livre
+                    livre= new Livre();
                     sc=new Scanner(System.in);
                     System.out.println("Donner le titre du livre");
-                    String titre=sc.nextLine();
+                    livre.setTitre(sc.nextLine());
                     System.out.println("Donner l'auteur du livre");
-                    String auteur=sc.nextLine();
+                    livre.setAuteur(sc.nextLine());
                     System.out.println("Donner l'editeur du livre");
-                    String editeur =sc.nextLine();
+                    livre.setEditeur(sc.nextLine());
                     System.out.println("Donner la collection");
-                    String collection=sc.nextLine();
+                    livre.setCollection(sc.nextLine());
                     System.out.println("Donner le prix du livre");
-                    Double prix =sc.nextDouble();
-                    livre= new Livre(titre,auteur,prix,editeur,collection);
+                    livre.setPrix(sc.nextDouble());
                     if(inventaire.ajouterLivre(livre)) System.out.println("Livre ajouté avec succés");
                     break;
                 case 4: //Quitter programme
